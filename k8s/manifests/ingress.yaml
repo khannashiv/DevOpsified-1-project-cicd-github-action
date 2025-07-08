@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "learnandstudydevops.local"
+    - host: "mynewdomain.local"
       http:
         paths:
           - path: /
