@@ -5,7 +5,7 @@ metadata:
   name: golang-app-service
 spec:
   selector:
-    app.kubernetes.io/name: golang-app
+    app: golang-app
   ports:
     - protocol: TCP
       port: 80
