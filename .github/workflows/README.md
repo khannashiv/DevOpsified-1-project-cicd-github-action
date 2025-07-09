@@ -58,10 +58,11 @@ configured. The workflows will automatically trigger on specific events such as 
 - ![Github-Actions-9](./Images/Github-Actions-9.png)
 - ![Github-Actions-10](./Images/Github-Actions-10.png)
 
-- ![DockerHub-1](./Images/Docker-Hub-1.png)
+- ![DockerHub-1](./Images/DockerHub-1.png)
 - ![DockerHub-2](./Images/DockerHub-2.png)
 - ![DockerHub-3](./Images/DockerHub-3.png)
 - ![DockerHub-4](./Images/DockerHub-4.png)
+- ![DockerHub-5](./Images/DockerHub-5.png)
 
 - ![App-Deploy-1](./Images/App-Deploy-1.png)
 - ![App-Deploy-2](./Images/App-Deploy-2.png)
