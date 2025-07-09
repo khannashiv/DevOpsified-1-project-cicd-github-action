@@ -74,6 +74,9 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/go-web-app:${{github.run_id}}
+        load: true
+        cache-from: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/go-web-app:latest # Use latest image as cache source
+        cache-to: type=inline # Cache the layers within the build
 
   update-newtag-in-helm-chart:
     runs-on: ubuntu-latest
