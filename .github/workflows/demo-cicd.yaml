@@ -97,3 +97,4 @@ jobs:
         git add helm/my-demo-helm-chart/values.yaml
         git commit -m "Update tag in Helm chart"
         git push
+
