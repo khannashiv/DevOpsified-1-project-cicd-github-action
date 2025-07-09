@@ -59,7 +59,7 @@ jobs:
           --no-cache  # Disable caching to ensure fresh builds
           
     - name: Debug tag
-      run: echo "Pushed Docker image with tag: ${{ secrets.DOCKERHUB_USERNAME }}/go-web-app:${{ github.run_id }}"
+      run: echo "Pushed Docker image with tag ${{ secrets.DOCKERHUB_USERNAME }}/go-web-app:${{ github.run_id }}"
 
   update-newtag-in-helm-chart:
     runs-on: ubuntu-latest
